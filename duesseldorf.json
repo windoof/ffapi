@@ -41,19 +41,19 @@
   "nodeMaps": [
     {
       "url": "http://ffmap.freifunk-rheinland.net/graph.html",
-      "interval": "1 Minute",
+      "interval": "5 Minutes",
       "technicalType": "ffmap",
       "mapType": "structural"
     },
     {
       "url": "http://ffmap.freifunk-rheinland.net/geomap.html",
-      "interval": "1 Minute",
+      "interval": "5 Minutes",
       "technicalType": "ffmap",
       "mapType": "geographical"
     },
     {
       "url": "http://ffmap.freifunk-rheinland.net/list.html",
-      "interval": "1 Minute",
+      "interval": "5 Minutes",
       "technicalType": "ffmap",
       "mapType": "list/status"
     }
@@ -77,6 +77,9 @@
       "ipv6": [
         {
           "network": "2a02:f98:0:28::/64"
+        },
+        {
+          "network": "fda0:747e:ab29:cafe::/64"
         }
       ],
       "ipv4": [
