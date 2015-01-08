@@ -1,0 +1,95 @@
+{
+  "name": "Freifunk Düsseldorf",
+  "url": "http://freifunk-rheinland.net",
+  "location": {
+    "city": "Düsseldorf",
+    "country": "DE",
+    "lat": 51.216702,
+    "lon": 6.783469,
+    "address": {
+      "Name": "Chaosdorf e.V.",
+      "Street": "Hüttenstr. 25",
+      "Zipcode": "40215"
+    }
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/FFRhein",
+    "email": "request@freifunk-rheinland.net",
+    "irc": "irc://irc.freenode.net/ffrhein",
+    "twitter": "@ffrhein"
+  },
+  "metacommunity": "Freifunk Rheinland e.V.",
+  "state": {
+    "nodes": 450,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2014-12-20T16:10:27.740Z"
+  },
+  "feeds": [
+    {
+      "name": "EventsFeed",
+      "category": "others",
+      "type": "xml",
+      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://ffmap.freifunk-rheinland.net/graph.html",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "http://ffmap.freifunk-rheinland.net/geomap.html",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://ffmap.freifunk-rheinland.net/list.html",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://images.freifunk-rheinland.net/images/gluon/rheinufer/stable/",
+      "docs": "http://www.freifunk-duesseldorf.de/anleitung/"
+    },
+    "dns": [
+      {
+        "domainname": "ffrl",
+        "nameserver": [
+          "10.105.0.1",
+          "10.105.8.1"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv4": [
+        {
+          "network": "10.105.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv",
+      "OLSRv2"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.4"
+}

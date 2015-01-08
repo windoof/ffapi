@@ -1,0 +1,105 @@
+{
+  "name": "Freifunk Dormagen",
+  "url": "http://freifunk-ruhrgebiet.de",
+  "location": {
+    "city": "Dormagen",
+    "country": "DE",
+    "lat": 51.0932,
+    "lon": 6.833031,
+    "address": {
+      "Name": "foobar e.V.",
+      "Street": "Sibyllastr. 9",
+      "Zipcode": "45136"
+    }
+  },
+  "contact": {
+    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "irc": "irc://irc.freenode.net/ffruhr",
+    "ml": "ffrl@mailman.freifunk-rheinland.net",
+    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
+    "twitter": "@ffruhr"
+  },
+  "metacommunity": "Freifunk Ruhrgebiet",
+  "state": {
+    "nodes": 15,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2014-12-20T16:10:27.740Z"
+  },
+  "feeds": [
+    {
+      "name": "EventsFeed",
+      "category": "others",
+      "type": "xml",
+      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://map.freifunk-ruhrgebiet.de/graph.html",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "http://map.freifunk-ruhrgebiet.de/geomap.html",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://map.freifunk-ruhrgebiet.de/list.html",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://images.freifunk-ruhrgebiet.de",
+      "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
+    },
+    "dns": [
+      {
+        "domainname": "ffrg",
+        "nameserver": [
+          "10.53.16.2",
+          "82.207.138.33"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a02:f98:0:26::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.105.0.0/16"
+        },
+        {
+          "network": "10.53.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "institutions"
+    ]
+  },
+  "api": "0.4.4"
+}
