@@ -28,7 +28,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2014-12-20T16:10:27.740Z"
+    "lastchange": "2015-01-08T16:10:27.740Z"
   },
   "feeds": [
     {
@@ -68,26 +68,32 @@
       {
         "domainname": "ffrl",
         "nameserver": [
-          "10.105.0.1",
-          "10.105.8.1"
+          "10.53.16.2",
+          "82.207.138.33"
         ]
       }
     ],
     "networks": {
+      "ipv6": [
+        {
+          "network": "2a02:f98:0:28::/64"
+        }
+      ],
       "ipv4": [
         {
-          "network": "10.105.0.0/16"
+          "network": "10.40.0.0/16"
         }
       ]
     },
     "routing": [
-      "batman-adv",
-      "OLSRv2"
+      "batman-adv"
     ],
     "updatemode": [
+      "manual",
       "autoupdate"
     ],
     "legals": [
+      "vpnnational",
       "institutions"
     ]
   },
