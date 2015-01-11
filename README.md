@@ -1,4 +1,4 @@
-# ffapi
+# FF-API-Ruhrgebiet
 
 Freifunk API Files for the directory.json Listing: 
 
