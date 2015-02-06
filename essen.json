@@ -13,15 +13,15 @@
     }
   },
   "contact": {
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
     "email": "kontakt@freifunk-ruhrgebiet.de",
     "irc": "irc://irc.freenode.net/ffruhr",
-    "ml": "ffrl@mailman.freifunk-rheinland.net",
+    "ml": "ruhrgebiet@forum.freifunk.net",
+    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
     "twitter": "@ffruhr"
   },
   "metacommunity": "Freifunk Ruhrgebiet",
   "state": {
-    "nodes": 15,
+    "nodes": 200,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -29,7 +29,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2014-12-20T16:10:27.740Z"
+    "lastchange": "2015-02-06T13:21:38.067Z"
   },
   "feeds": [
     {
@@ -59,7 +59,7 @@
       "mapType": "list/status"
     }
   ],
-    "support": {
+  "support": {
     "donations": {
       "campaigns": [
         {
@@ -79,21 +79,28 @@
       {
         "domainname": "ffrg",
         "nameserver": [
-          "10.105.0.1",
-          "10.105.8.1"
+          "10.53.0.1",
+          "10.53.8.1"
         ]
       }
     ],
     "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:50::/48"
+        }
+      ],
       "ipv4": [
         {
-          "network": "10.105.0.0/16"
+          "network": "10.53.0.0/16"
+        },
+        {
+          "network": "10.0.0.0/16"
         }
       ]
     },
     "routing": [
-      "batman-adv",
-      "OLSRv2"
+      "batman-adv"
     ],
     "updatemode": [
       "autoupdate"
