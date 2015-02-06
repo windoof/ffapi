@@ -59,6 +59,16 @@
       "mapType": "list/status"
     }
   ],
+    "support": {
+    "donations": {
+      "campaigns": [
+        {
+          "provider": "boost",
+          "projectid": "2774"
+        }
+      ]
+    }
+  },
   "techDetails": {
     "firmware": {
       "name": "gluon",
@@ -92,5 +102,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.1"
+  "api": "0.4.6"
 }
