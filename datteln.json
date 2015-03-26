@@ -1,22 +1,22 @@
 {
   "name": "Freifunk Datteln",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "url": "http://freifunk-datteln.de",
   "location": {
     "city": "Datteln",
     "country": "DE",
-    "lat": 51.657562,
-    "lon": 7.361178,
+    "lat": 51.641075,
+    "lon": 7.321789,
     "address": {
-      "Name": "foobar e.V.",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
+      "Name": "Freifunk Datteln",
+      "Street": "",
+      "Zipcode": ""
     }
   },
   "contact": {
-    "email": "kontakt@freifunk-ruhrgebiet.de",
+    "email": "info@freifunk-datteln.de",
     "irc": "irc://irc.freenode.net/ffruhr",
     "ml": "ffrl@mailman.freifunk-rheinland.net",
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
+    "facebook": "https://www.facebook.com/freifunk.datteln",
     "twitter": "@ffruhr"
   },
   "metacommunity": "Freifunk Ruhrgebiet",
