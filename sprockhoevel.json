@@ -1,0 +1,29 @@
+{
+  "name": "Freifunk Sprockhövel",
+  "url": "http://www.Freifunk-Sprockhoevel.de",
+  "location": {
+    "city": "Sprockhövel",
+    "country": "DE",
+    "lat": 51.3639672,
+    "lon": 7.2469129
+  },
+  "contact": {
+    "email": "freifunk@freifunk-sprockhoevel.de",
+    "phone": "+49 2332 954857"
+  },
+  "state": {
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content"
+    ],
+    "lastchange": "2015-01-14T09:03:40.265Z"
+  },
+  "api": "0.4.5",
+  "techDetails": {
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  }
+}
